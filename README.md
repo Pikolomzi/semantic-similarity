@@ -28,5 +28,39 @@ This project explores semantic similarities between words using the SpaCy librar
      python semantic.py
      ```
 
-3. 
+3. **Customization**:
+   - You can customize the input words for semantic analysis by modifying the `tokens` variable in the `semantic.py` script.
+
+## Example Output
+
+After executing the script, it will output the semantic similarity scores between each pair of words provided as input. For example:
+
+cat cat 1.0
+cat monkey 0.532
+cat banana 0.403
+monkey cat 0.532
+monkey monkey 1.0
+monkey banana 0.381
+banana cat 0.403
+banana monkey 0.381
+banana banana 1.0
+
+
+The similarity score ranges from 0 to 1, where 1 indicates maximum similarity and 0 indicates no similarity.
+
+## Dependencies
+
+- Python 3.x
+- SpaCy
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+The similarity score ranges from 0 to 1, where 1 indicates maximum similarity and 0 indicates no similarity.
+
+## Dependencies
+
+- Python 3.x
+- SpaCy
 
